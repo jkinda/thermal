@@ -1,0 +1,7 @@
+[Tests]
+    [test]
+      type = Exodiff
+      input = darcy_test.i
+      exodiff = darcy_test_out.e
+    []
+  []
