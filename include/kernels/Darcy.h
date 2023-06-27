@@ -6,7 +6,7 @@
 /**
  * Computes the residual contribution: K / mu * grad_test * grad_u.
  */
-class Darcy: public ADKernelGrad
+class Darcy : public ADKernelGrad
 {
 public:
   static InputParameters validParams();

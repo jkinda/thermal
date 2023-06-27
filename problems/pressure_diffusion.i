@@ -23,6 +23,7 @@
     [diffusion]
       type = Darcy # Zero-gravity, divergence-free form of Darcy's law
       variable = pressure # Operate on the "pressure" variable from above
+      permeability = 0.8451e-09 # (m^2) assumed permeability of the porous medium
     []
   []
 
@@ -52,4 +53,5 @@
 
   [Outputs]
     exodus = true # Output Exodus format
+    perf_graph = true # prints a performance report to the terminal
   []
